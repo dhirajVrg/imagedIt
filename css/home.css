@@ -1,0 +1,22 @@
+
+#particular {
+background: -webkit-gradient(linear, left bottom, right top, from(#D8D8D8), to(#989898));
+background: -moz-linear-gradient(left, #D8D8D8, #989898);
+background-color:#cbcbcb;
+background:#cbcbcb;
+border-radius: 10px;
+height:530px; width:1050px; margin-left:280px;  margin-top:5px;
+-webkit-box-shadow: 2px 2px 4px #111;
+ overflow:auto; scrollbar:auto; overflow-x:hidden; 
+}
+
+th {
+ height:30px; border-bottom: 1px solid white;
+ font-family:Verdana, Sans-serif; font-size:15px;
+}
+
+td {
+height:30px; text-align:center; border-bottom: 1px solid white;
+ font-family:Verdana, Sans-serif; font-size:15px;
+}
+

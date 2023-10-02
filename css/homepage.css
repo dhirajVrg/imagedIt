@@ -1,0 +1,42 @@
+#container{
+width:1365px; height:auto ; margin-left:-8px; margin-top:-8px;
+background-image:url('images/b2.jpg');
+}
+
+#header{
+width:1365px; height:75px;
+}
+
+#toplink{
+float:right; margin-right:20px; margin-top:20px;
+}
+
+#toplink a{
+text-decoration:none;
+font-family:Verdana, Sans-serif;
+font-weight:600;
+font-size:12px;
+color:#ccc; 
+padding:5px; 
+}
+
+#toplink span{
+text-decoration:none;
+font-family:Verdana, Sans-serif;
+font-size:12px;
+color:black; 
+}
+
+#content{
+width:1365px;
+height:580px;
+}
+
+#footer{
+background-color:#084B8A; height:20px; width:1365px; text-align:center; position:fixed; bottom:0px; float:left;
+
+}
+
+#menu {
+width:250px; height:580px; float:left; border-right:2px solid #084B8A;
+}

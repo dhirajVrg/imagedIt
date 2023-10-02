@@ -1,0 +1,80 @@
+#content{
+width:1365px; height:560px;
+}
+
+#page_title{
+width:1365px; height:55px;
+}
+
+#image{
+width:50px; height:50px; float:left; margin-top:5px;
+}
+
+#text{
+width:1365px; height:50px;
+}
+
+#text span{
+float:left; font-size:22px; margin-top:15px; font-weight:bold;
+}
+
+#information{
+width:1365px; height:500px; scrollbar:auto; overflow-x:hidden; overflow:auto;
+}
+
+#alert
+{
+ font-weight:bold;
+color:#084B8A;
+}
+#tbox,
+.tbox
+{
+border: 1px solid #eae1c0;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;    
+box-shadow: rgba(0,0,0,.5) 1px 1px 1px 1px inset;
+-moz-box-shadow: rgba(0,0,0,.5) 1px 1px 1px 1px inset;
+-webkit-box-shadow: rgba(0,0,0,.5) 1px 1px 1px 1px inset;
+background: #fff;
+width:300px;
+}
+
+td {font-size:17px; color:black; font-weight:bold; }
+
+textarea { font-family: "Arial", Sans-serif;}
+
+span {font-size:15px; font-weight:500;}
+
+input {
+  font-size: .7em;
+  padding:3px;
+}
+
+input:valid, textarea:valid {
+  background: #efe;
+}
+
+#tick{display:none;}
+#cross{display:none;}
+#tick2{display:none;}
+#cross2{display:none;}
+
+form {}
+form :focus {
+  outline: none;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+ 
+ input[type="submit"] {
+  margin: 0px auto 0 50px;
+  }
+  
+  input[type="submit"]:hover, input[type="submit"]:active, input[type="reset"]:hover, input[type="reset"]:active{
+  cursor: pointer;
+  background: #084B8A;
+  color:#ccc;
+  }

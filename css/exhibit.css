@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+#exhibit img, .ipimg{
+	height:180px;
+	width:180px;
+	margin:8px;
+	border: thin solid rgba(102,102,102,1);
+}#exhibit,.ipimg {
+	font-family: "Open sans", sans;
+	font-size: large;
+	font-weight: 400;
+	float: left;
+	height:280px;
+	width: 205px;
+	
+	color:#333;
+	margin:10px;
+}
+#exhibit img:hover, .ipimg:hover
+{
+	box-shadow:5px 7px 7px 5px #1E1E1E;
+}
+#content
+{
+	width:1140px;	
+	height:auto;
+	margin-bottom:30px;
+	
+}
+.exinfo{
+	padding:10px; background:#fff;
+	
+}
+.exinfo img
+{
+	height:300px;
+	width:300px;
+	border:thin solid #888;
+	margin-bottom:30px;
+	margin-left:200px;}
+.exinfo h1{
+	color:#033;
+	font-family:'Open Sans', sans-serif;
+	text-align:center;}
+.exinfo p{
+	text-align:justify;
+	margin:10px;}
+	
+#eventname{
+	font-size:3em;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-family: 'Open Sans', Sans-serif;
+	color:#085E43;
+}
+	

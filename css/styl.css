@@ -1,0 +1,100 @@
+/*custom font for text*/
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+/*CSS file for fontawesome - an iconfont we will be using. This CSS file imported contains the font-face declaration. More info: http://fortawesome.github.io/Font-Awesome/ */
+/*@import url(http://thecodeplayer.com/uploads/fonts/fontawesome/css/font-awesome.min.css);  */
+/*Basic reset*/
+* {margin: 0; padding: 0;}
+/*#4EB889*/
+body {
+
+	font-family: Nunito, arial, verdana;
+}
+#accordian {
+	background: #004050;
+	width: 300px;
+	margin: 10px 10px 10px 10px;;
+	color: white;
+    padding: 5px;
+	/*Some cool shadow and glow effect*/
+	box-shadow: 
+		0 5px 15px 1px rgba(0, 0, 0, 0.6), 
+		0 0 200px 1px rgba(255, 255, 255, 0.5);
+}
+/*heading styles*/
+#accordian h3 {
+	font-size: 12px;
+	line-height: 34px;
+	padding: 0 10px;
+	cursor: pointer;
+	/*fallback for browsers not supporting gradients*/
+	background: #003040; 
+	background: linear-gradient(#003040, #002535);
+}
+/*heading hover effect*/
+#accordian h3:hover {
+	text-shadow: 0 0 1px rgba(255, 255, 255, 0.7);
+}
+/*iconfont styles*/
+#accordian h3 span {
+	font-size: 16px;
+	margin-right: 10px;
+}
+/*list items*/
+#accordian li {
+	list-style-type: none;
+}
+/*links*/
+#accordian ul ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 11px;
+	line-height: 27px;
+	display: block;
+	padding: 0 15px;
+	/*transition for smooth hover animation*/
+	transition: all 0.15s;
+}
+/*hover effect on links*/
+#accordian ul ul li a:hover {
+	background: #003545;
+	border-left: 5px solid lightgreen;
+}
+/*Lets hide the non active LIs by default*/
+#accordian ul ul {
+	display: none;
+}
+#accordian li.active ul {
+	display: block;
+}
+
+/*.button {
+    border: 1px solid #006;
+    background: 660000;#606c88
+    margin: 5px 100px 5px 5px;
+}*/
+
+.button_example{
+border:1px solid #495267; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:12px;font-family:arial, helvetica, sans-serif; padding: 5px 5px 5px 5px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
+ background-color: #000033; background-image: -webkit-gradient(linear, left top, left bottom, from(#606c88), to(#3f4c6b));
+ background-image: -webkit-linear-gradient(top, #606c88, #3f4c6b);
+ background-image: -moz-linear-gradient(top, #606c88, #3f4c6b);
+ background-image: -ms-linear-gradient(top, #606c88, #3f4c6b);
+ background-image: -o-linear-gradient(top, #606c88, #3f4c6b);
+ background-image: linear-gradient(to bottom, #606c88, #3f4c6b);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#606c88, endColorstr=#3f4c6b);
+}
+
+.button_example:hover{
+ border:1px solid #363d4c;
+ background-color: #4b546a; background-image: -webkit-gradient(linear, left top, left bottom, from(#4b546a), to(#2c354b));
+ background-image: -webkit-linear-gradient(top, #4b546a, #2c354b);
+ background-image: -moz-linear-gradient(top, #4b546a, #2c354b);
+ background-image: -ms-linear-gradient(top, #4b546a, #2c354b);
+ background-image: -o-linear-gradient(top, #4b546a, #2c354b);
+ background-image: linear-gradient(to bottom, #4b546a, #2c354b);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#4b546a, endColorstr=#2c354b);
+}
+
+
+
+
+
+
